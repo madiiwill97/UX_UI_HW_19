@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <title>Madison Kathryn Designs</title>
+
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+
+    <link rel="stylesheet" href="./css/index.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Rubik+Mono+One&display=swap"
+      rel="stylesheet"
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+  </head>
+
+  <body>
+    <header>
+      <!-- <div class="inline-block logo">
+        <img src="./images/mkdlogo.png" height="100px" width="100px" />
+
+        <nav class="inline-block">
+          <ul>
+            <li class="navItem">my work</li>
+            <li class="navItem">about me</li>
+            <li class="navItem">contact me</li>
+          </ul>
+        </nav>
+      </div> -->
+      <nav class="navbar navbar-expand-lg bg-light">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#"
+            ><img
+              src="images/mkdlogo.png"
+              height="100px"
+              width="100px"
+              alt="Madison Kathryn Designs Logo"
+            />
+          </a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link" href="#">my work</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">about me</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">contact me</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <section class="heroSection">
+      <div class="heroImg">
+        <img
+          src="images/photo.png"
+          alt="portrait of Madison Williams"
+          height="300"
+          width="300"
+        />
+      </div>
+      <div class="heroDesc">
+        <h1>Hi! I'm Madison, Welcome to My World!</h1>
+        <br />
+        <p>
+          I am a UI designer based in Minneapolis, MN. I enjoy creating exciting
+          and memorable experiences for users. I take pride in my understanding
+          of design and front-end delvelopment fundamentals and am eager to work
+          on a project that will nuture my skills.
+        </p>
+      </div>
+    </section>
+
+    <!--My UX Skills section coded using CSS flex-->
+
+    <section class="mySkills">
+      <h1 class="sectionHead">My UX Skills</h1>
+
+      <div class="flexContainer">
+        <div class="flexItem">
+          <img src="./images/research.png" alt="" height="100" width="150" />
+          <h3>UX Research</h3>
+          <p>
+            Well versed in conducting in-person and remote usability testing,
+            creating affinity diagrams, and analyzing user data. Professional
+            level skills in interviewing and Miro.
+          </p>
+        </div>
+
+        <div class="flexItem">
+          <img src="./images/design.jpg" alt="" height="100" width="150" />
+          <h3>UI Design</h3>
+          <p>
+            Passionate about designing modern yet delightful interfaces.
+            Professional level skills in Figma and AdobeXD.
+          </p>
+        </div>
+
+        <div class="flexItem">
+          <img src="./images/development.jpg" alt="" height="100" width="150" />
+          <h3>Web Development</h3>
+          <p>Solid understanding of HTML, CSS, and Javascript fundamentals.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- My Work Section Constructed using CSS Grid -->
+
+    <section class="myWork">
+      <h1 class="sectionHead">My Work</h1>
+
+      <div class="workGrid">
+        <div id="work1card">
+          <div id="work1img">
+            <img src="./images/caircard.PNG" height="150px" width="200" />
+          </div>
+          <div id="work1cnt">
+            <h3>CAIR-MN</h3>
+            <p>Responsive Website Redesign</p>
+            <button>View Case Study</button>
+          </div>
+        </div>
+
+        <div id="work2card">
+          <div id="work2img">
+            <img src="./images/caircard.PNG" height="150px" width="200" />
+          </div>
+          <div id="work2cnt">
+            <h3>Placeholder</h3>
+            <p>A very cool and interesting project that I am proud of.</p>
+            <button>View Case Study</button>
+          </div>
+        </div>
+      </div>
+
+      <h2 class="sectionLink">View All Projects</h2>
+    </section>
+
+    <footer><span>&copy</span>Madison Williams 2022</footer>
+  </body>
+</html>

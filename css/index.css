@@ -1,0 +1,128 @@
+.bg-light {
+  background-color: #494d6f !important;
+}
+
+.nav-link {
+  color: #fbfef9;
+  border: solid #fbfef9 1px;
+  border-radius: 4px;
+  margin: 20px;
+  width: 150px;
+  text-align: center;
+}
+
+#navbarNav {
+  justify-content: flex-end !important;
+  justify-items: space-between !important;
+}
+
+footer {
+  background-color: #494d6f;
+  text-align: center;
+  color: #fbfef9;
+  padding: 2%;
+}
+
+/* My Skills Section */
+
+.flexContainer {
+  display: flex;
+  padding: 8%;
+}
+
+.flexItem {
+  width: 33%;
+  border: solid #ee6055 3px;
+  padding: 10px;
+  margin: 2%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+/* My work Section */
+
+#work1card {
+  grid-area: a;
+  max-width: 200px;
+}
+
+#work2card {
+  grid-area: b;
+  max-width: 200px;
+}
+
+.workGrid {
+  display: grid;
+  padding: 8%;
+  grid-template-areas: "a b";
+  grid-template-rows: 50% 50%;
+  grid-template-columns: 50% 50%;
+  justify-items: center;
+}
+
+h1 {
+  font-size: 32px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Rubik Mono One", sans-serif;
+}
+
+p,
+li {
+  font-family: "Lato", sans-serif;
+}
+
+header {
+  background-color: #494d6f;
+}
+
+@media only screen and (max-width: 600px) {
+  .flexContainer {
+    flex-direction: column;
+  }
+  .flexItem {
+    width: 100%;
+  }
+
+  .workGrid {
+    grid-template-areas:
+      "a"
+      "b";
+  }
+}
+
+button {
+  height: 40px;
+  width: 150px;
+  border-color: white 2px;
+  border-radius: 5px;
+  background-color: #494d6f;
+  font-family: "Lato", sans-serif;
+  color: white;
+}
+.sectionHead {
+  text-align: center;
+}
+
+.sectionLink {
+  text-align: center;
+}
+
+.heroSection {
+  padding: 8%;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+.heroDesc {
+  max-width: 600px;
+  text-align: center;
+  padding: 3%;
+}
