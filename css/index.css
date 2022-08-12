@@ -1,3 +1,7 @@
+html {
+  scroll-behavior: smooth;
+}
+
 .bg-light {
   background-color: #494d6f !important;
 }
@@ -9,6 +13,12 @@
   margin: 20px;
   width: 150px;
   text-align: center;
+}
+
+.hover {
+  color: #494d6f !important;
+  background-color: #fbfef9 !important;
+  border-color: #494d6f !important;
 }
 
 #navbarNav {
@@ -23,6 +33,16 @@ footer {
   padding: 2%;
 }
 
+hr {
+  background-color: #ee6055;
+  height: 3px;
+  max-width: 330px;
+}
+
+section {
+  border-bottom: solid 1px #494d6f;
+  padding: 8%;
+}
 /* My Skills Section */
 
 .flexContainer {
