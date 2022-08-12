@@ -40,7 +40,7 @@ hr {
 }
 
 section {
-  border-bottom: solid 1px #494d6f;
+  border-bottom: dotted 1px #494d6f;
   padding: 8%;
 }
 /* My Skills Section */
@@ -58,6 +58,10 @@ section {
   display: flex;
   align-items: center;
   flex-direction: column;
+}
+
+.skillImg {
+  margin: 2%;
 }
 
 /* My work Section */
@@ -79,10 +83,15 @@ section {
   grid-template-rows: 50% 50%;
   grid-template-columns: 50% 50%;
   justify-items: center;
+  text-align: center;
 }
 
 h1 {
   font-size: 32px;
+}
+
+h3 {
+  font-size: 18px;
 }
 
 h1,
