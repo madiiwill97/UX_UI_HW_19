@@ -14,11 +14,25 @@ html {
   width: 150px;
   text-align: center;
 }
+.nav-link2 {
+  color: #494d6f;
+  border: solid #494d6f 1px;
+  border-radius: 4px;
+  margin: 20px;
+  width: 150px;
+  text-align: center;
+}
 
 .hover {
   color: #494d6f !important;
   background-color: #fbfef9 !important;
   border-color: #494d6f !important;
+}
+
+.hover2 {
+  color: #fbfef9 !important;
+  background-color: #494d6f !important;
+  border-color: #fbfef9 !important;
 }
 
 #navbarNav {
